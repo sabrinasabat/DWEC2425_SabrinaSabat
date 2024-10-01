@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Haciendo testes</title>
+    <style>
+        body {
+            background-color: rgba(92, 177, 177, 0.63);
+            color: blue;
+            font-family: Consolas,fantasy;
+        }
+        h1 {
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testeando algunas cosas...</h1>
+    <p>window.alert<br>
+    window.confirm<br>
+    window.prompt</p>
+    <p id="nombre"> </p>
+    <script>
+        window.alert('¡Buenos días!') // testando alert
+        window.confirm('¿Te gusta el JavaScript?') // testando confirm
+        var nombre = window.prompt('¿Cómo te llamas?') //Creando una variable
+        window.alert('Mucho gusto en conocerte, '+ nombre)
+        document.getElementById('nombre').innerHTML=nombre // para enseñar el nombre en el texto
+        // el innerhtml subescribe la etiqueta que estaba antes
+        document.write('¿Qué tal?') // no es recomendable usar así
+
+        console.log("texto para la consola")
+
+    </script>
+
+</body>
+</html>
