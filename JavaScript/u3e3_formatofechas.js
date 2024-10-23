@@ -6,7 +6,6 @@
  3- Wednesday, February 17, 2016
 */
 
-
 function formatoFecha(){
     var $fecha = new Date();
     var $fecha1 = $fecha.toLocaleDateString();
@@ -26,8 +25,6 @@ function formatoFecha(){
             window.alert($fecha3)
             break;
         default:
-            window.alert("Opcion no valida.")
+            window.alert("Opción no valida.")
     }
-
-
 }
