@@ -25,9 +25,6 @@ function number(){
     window.alert("Número en binario: "+binario);
     window.alert("Número en octal: "+octal);
     window.alert("Número en hexadecimal: 0x"+hexadecimal);
-
-
-
 }
 
 
